@@ -1,0 +1,120 @@
+
+        .Product
+        {
+           overflow: auto;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 40px;
+           margin-top: 40px;
+           
+        
+        }
+        .ProductBar
+        {
+            width: 14%;
+            height: 100%;
+            text-align: left;
+            margin-left: 150px;
+            float: left;            
+        }
+        
+        .ProductContain
+        {
+            margin-left: 350px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: black;
+            border-left: 0.5px solid black;
+       }
+
+        .card
+        {
+            display: inline-block;
+            width: 200px;
+            padding-left: 30px;
+        }
+         
+        .productdetail img
+        {
+            width:200px;
+            text-align: left;
+        }
+        
+
+
+        figure
+        {
+            width:200px;
+            margin: 60px !important;
+          
+        }
+        .button
+        {
+            text-align: center;
+            background-color: aliceblue;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 2px 22px;
+                
+        }
+        .button:hover
+        {
+            background-color: black;
+            
+            color: white;
+    
+        }
+
+        a
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        .vl
+        {
+            border-right: 1px solid gray;
+            height: 750px;
+            position:absolute;
+            left: 15%;
+            margin-left: 245px;
+                        
+        }
+          div.table1
+        {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            white-space: nowrap;
+            padding-left: 6%;
+        }
+          .pagination 
+        {
+            margin-left: 350px;
+        }
+          .pagination a 
+        {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s; 
+        }
+
+          .pagination a.active 
+        {
+            background-color: dodgerblue;
+            color: white;
+        }
+
+          .pagination a:hover:not(.active) {background-color: #ddd;}
+
+          .Page, .Page
+        {
+            display: none;
+        }
+        .Show
+        {
+         display: block;   
+        }
